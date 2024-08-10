@@ -1,0 +1,22 @@
+root@23926b2c8dab:/MIA_Repo# ls
+README.md
+root@23926b2c8dab:/MIA_Repo# vi file1
+root@23926b2c8dab:/MIA_Repo# mv file1 file_renamed
+root@23926b2c8dab:/MIA_Repo# ls
+file_renamed  README.md
+root@23926b2c8dab:/MIA_Repo# cd
+root@23926b2c8dab:~# ls
+empty_directory  not_here  old_school  ready_to_be_removed  school
+root@23926b2c8dab:~# cd ..
+root@23926b2c8dab:/# ls
+alx-system_engineering-devops  bin  boot  dev  etc  home  lib  lib32  lib64  libx32  media  MIA  MIA_Repo  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
+root@23926b2c8dab:/# cd MIA_Repo/
+root@23926b2c8dab:/MIA_Repo# ls
+file_renamed  README.md
+root@23926b2c8dab:/MIA_Repo# pwd
+/MIA_Repo
+root@23926b2c8dab:/MIA_Repo# mkdir hh
+root@23926b2c8dab:/MIA_Repo# cd hh
+root@23926b2c8dab:/MIA_Repo/hh# vi x
+root@23926b2c8dab:/MIA_Repo/hh# cat x
+hhjkjhh
